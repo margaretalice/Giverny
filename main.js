@@ -4,6 +4,8 @@
       var countryRestrict = {'country': 'us'};
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
+      var searchOption=["cafe"]
+     
 
       var countries = {
         'au': {
@@ -107,9 +109,9 @@
       function search() {
         var search = {
           bounds: map.getBounds(),
-          types: ['lodging']
+          types: searchOption
         };
-
+      
         places.nearbySearch(search, function(results, status) {
           if (status === google.maps.places.PlacesServiceStatus.OK) {
             clearResults();
