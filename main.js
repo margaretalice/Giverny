@@ -5,6 +5,11 @@
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
       var searchOption=["cafe"]
+      function changeOption (){
+        document.getElementById("types");
+        types:[types.option[types.selectedIndex].value];
+        return types;
+      }
      
 
       var countries = {
