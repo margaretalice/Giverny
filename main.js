@@ -5,7 +5,8 @@
       var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
       var hostnameRegexp = new RegExp('^https?://.+?/');
       var searchOption=["cafe"]
-    
+   
+  
        var countries = {
         'au': {
           center: {lat: -25.3, lng: 133.8},
@@ -85,6 +86,19 @@
         places = new google.maps.places.PlacesService(map);
 
         autocomplete.addListener('place_changed', onPlaceChanged);
+         document.getElementById("accomodation").addEventListener('change', onPlaceChanged);
+
+
+    document.getElementById("cafes").addEventListener('change', onPlaceChanged);
+
+
+    document.getElementById("art_galleries").addEventListener('change', onPlaceChanged);
+
+
+    document.getElementById("museums").addEventListener('change', onPlaceChanged);
+       document.getElementById('reset-button').addEventListener("click", setAutocompleteCategory);
+       
+           document.getElementById('category').addEventListener('change', onPlaceChanged);
 
         // Add a DOM event listener to react when the user selects a country.
         document.getElementById('country').addEventListener(
@@ -95,21 +109,152 @@
       // zoom the map in on the city.
       function onPlaceChanged() {
         var place = autocomplete.getPlace();
+          if ($("#accommodation").is(':selected')) {
         if (place.geometry) {
           map.panTo(place.geometry.location);
           map.setZoom(15);
-          search();
-        } else {
-          document.getElementById('autocomplete').placeholder = 'Enter a city';
-        }
-      }
+          var search = {
 
-      // Search for hotels in the selected city, within the viewport of the map.
-      function search() {
-        var search = {
-          bounds: map.getBounds(),
-          types: searchOption
-        };
+
+                bounds: map.getBounds(),
+
+
+                types: ['lodging']
+
+
+            };
+
+
+            doNearbySearch(search);
+           }
+        else {
+          $('#autocomplete').attr("placeholder", "Enter a town or city");
+          }
+            
+          }
+    else if ($("#cafes").is(':selected')) {
+      var place = autocomplete.getPlace();
+        if (place.geometry) {
+          map.panTo(place.geometry.location);
+            map.setZoom(15);
+            searchCafes();
+            map.setZoom(14);
+            var search = {
+              bounds: map.getBounds(),
+                types: ['cafe','restaurant']
+              };
+               doNearbySearch(search);
+
+
+        }
+
+
+        else {
+
+
+            $('#autocomplete').attr("placeholder", "Enter a town or city");
+
+
+        }
+    }
+
+
+    else if ($("#museums").is(':selected')) {
+
+
+        var place = autocomplete.getPlace();
+
+
+        if (place.geometry) {
+
+
+            map.panTo(place.geometry.location);
+
+
+            map.setZoom(15);
+
+
+            searchPublic();
+
+
+            map.setZoom(14);
+
+
+            var search = {
+
+
+                bounds: map.getBounds(),
+
+
+                types: ['museums']
+
+
+            };
+
+
+            doNearbySearch(search);
+
+
+        }
+         else {
+
+
+            $('#autocomplete').attr("placeholder", "Enter a town or city");
+
+
+        }
+
+
+    }
+
+
+    else if ($("#art_galleries").is(':selected')) {
+
+
+        var place = autocomplete.getPlace();
+
+
+        if (place.geometry) {
+
+
+            map.panTo(place.geometry.location);
+
+
+            map.setZoom(15);
+
+
+            searchTakeaway();
+
+
+            map.setZoom(14);
+
+
+            var search = {
+
+
+                bounds: map.getBounds(),
+
+
+                types: ['art_galleries']
+
+
+            };
+              doNearbySearch(search);
+
+
+        }
+
+
+        else {
+
+
+            $('#autocomplete').attr("placeholder", "Enter a town or city");
+
+
+        }
+
+
+    }
       
         places.nearbySearch(search, function(results, status) {
           if (status === google.maps.places.PlacesServiceStatus.OK) {
@@ -264,6 +409,8 @@
           document.getElementById('iw-website-row').style.display = 'none';
         }
       }
+      
+     
    
    
 
