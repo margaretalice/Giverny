@@ -7,15 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="assets/my_jquery.js" type="text/javascript" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <link rel="stylesheet" href="assets/main.js" type="text/css" />
 
-  <script src="https://code.jquery.com/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <script src=(XHR)POST - "https://api.emailjs.com/api/v1.0/email/send"/>
-  </script>
-  <script>
+<script>
     (function() {
       emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
 
@@ -42,26 +41,19 @@
     </section>
   </header>
   <section class="container-fluid jumbotron" id="monet">
-    <div class="bg-color-regions section-column"></div>
+    <div class="bg-color-regions sectiotinn-column"></div>
     <div class="row">
-      <div class="col-md-12" jumbotron id="arts">
+      <div class="col-md-12"  id="arts">
         <p class="des">We offer arts and culture tours to the world's most fascinating destinations led by experts in their fields to bring colour and life to your visit. Fascinating itineraries and private views, not usually available to the public, are carefully selected.
           All you have to do is choose where you want to go. Will it be Pompeii and Herculaneum, the Persian palaces and gardens of Iran, the mosaics of Ravenna, St Petersburg, or, perhaps, the Golden Road to Samarkand? </p>
       </div>
     </div>
-    </div>
-  </section>
+    </section>
 
   <section>
-    <div class="hotel-search">
-      <div id="findhotels">
-        Find hotels in:
-      </div>
-
-      <div id="locationField">
+   <div id="locationField">
         <input id="autocomplete" placeholder="Enter a city" type="text" />
       </div>
-
       <div id="controls">
         <select id="country">
           <option value="all">All</option>
@@ -80,15 +72,21 @@
           <option value="uk">United Kingdom</option>
         </select>
       </div>
-    </div>
-    <select id="types">
-      <option value = "lodging">Hotels</option>
-      <option value = "cafes">Cafes</option>
-      <option value = "art_galleries">Art galleries</option>
-      <option value = "museums">Museums</option>
+      <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
+      <div id="controls">
+   <select id="categories">
+     <option value="select" selected>Select One</option>
+     <option value="" selected>Select One</option>
+      <option id="accomodation" value="accomodation">Accomodation</option>
+      <option id="cafes" value="cafes">Cafes/Restaurants</option>
+      <option id="art_galleries" value = "art_galleries">Art galleries</option>
+      <option id="museums" value ="museums">Museums</option>
     </select>
-    <input class="btn btn-primary" onclick="changeOption()" type="submit" value="Submit">
-    <div id="map"></div>
+    </div>
+    <div>
+       <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="reset()"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
+</div>
+   <div id="map"></div>
     <div id="listing">
       <table id="resultsTable">
         <tbody id="results"></tbody>
@@ -140,8 +138,11 @@
   <!--Carousel from Bootstrap4 from W3schools tutorial-->
   <section class="slide">
     <div class="row"></div>
-    <h3>Images from amazing cities.</h3>
-    <div class="col-md-4"></div>
+    <div class="col-md-8"></div>
+     <h3>Images from amazing cities.</h3>
+     <div class="col-md-4">
+       <button class="bu">Click</button>
+     </div>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -176,13 +177,22 @@
   </a>
 
       <div>
-        <h2>Enjoy a rich cultural experience</h2>
+        <h2 class="rich">Enjoy a rich cultural experience</h2>
 
       </div>
     </div>
-  </section>
+    </section>
+    <section class="lin">
+    <div class="row">
+      <div class= "col-md-4">
+     <button type="button" class="btn btn-primary">Click Me</button>
 
-  <footer>
+        <p>This is a paragraph about links. </p>
+       
+      </div>
+    </div>
+  </section>
+ <footer>
     <section class="footer">
       <h4>For further information please see our social media accounts</h4>
       <div class="icon-row">
