@@ -41,7 +41,7 @@
     </section>
   </header>
   <section class="container-fluid jumbotron" id="monet">
-    <div class="bg-color-regions sectiotinn-column"></div>
+    <div class="bg-color-regions section-column"></div>
     <div class="row">
       <div class="col-md-12"  id="arts">
         <p class="des">We offer arts and culture tours to the world's most fascinating destinations led by experts in their fields to bring colour and life to your visit. Fascinating itineraries and private views, not usually available to the public, are carefully selected.
@@ -50,12 +50,13 @@
     </div>
     </section>
 
-  <section>
+  <section id="find">
+    <h2 class="pos">Use the map to discover a world of possibilities.</h2>
    <div id="locationField">
         <input id="autocomplete" placeholder="Enter a city" type="text" />
       </div>
       <div id="controls">
-        <select id="country">
+        <select id="types" onchange="search();">
           <option value="all">All</option>
           <option value="au">Australia</option>
           <option value="br">Brazil</option>
@@ -74,14 +75,12 @@
       </div>
       <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
       <div id="controls">
-   <select id="categories">
-     <option value="select" selected>Select One</option>
-     <option value="" selected>Select One</option>
-      <option id="accomodation" value="accomodation">Accomodation</option>
-      <option id="cafes" value="cafes">Cafes/Restaurants</option>
-      <option id="art_galleries" value = "art_galleries">Art galleries</option>
-      <option id="museums" value ="museums">Museums</option>
-    </select>
+   <select id="types" onchange="search();">
+     <option value="lodging">Hotel</option>
+      <option value="cafes" selected="selected">Cafes</option>
+      <option value = "tourist_attraction">Tourist Attraction</option>
+      <option value ="museums">Museums</option>
+    </select> in:
     </div>
     <div>
        <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="reset()"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
