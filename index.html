@@ -55,7 +55,7 @@
         <input id="autocomplete" placeholder="Enter a city" type="text" />
       </div>
       <div id="controls">
-        <select id="types" onchange="search();">
+        <select id="country">
           <option value="all">All</option>
           <option value="au">Australia</option>
           <option value="br">Brazil</option>
@@ -74,7 +74,7 @@
       </div>
       <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
      
-  <select>
+  <select id="types" onchange="search();">
      <option value="lodging">Hotel</option>
       <option value="cafes" selected="selected">Cafes</option>
       <option value = "tourist_attraction">Tourist Attraction</option>
