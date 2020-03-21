@@ -119,11 +119,11 @@
   </section>
   <section class="contact">
     <div class="row">
-      <div class="offset-3 col-md-6 jumbotron">
+      <div class="offset-3 col-md-6 jumbotron" id="jum">
         <h1 class="us">Please contact us for further information.</h1>
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1" id="em">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -134,13 +134,11 @@
   </section>
 
   <!--Carousel from Bootstrap4 from W3schools tutorial-->
-  <section class="slide">
+  <section class="slide" id="section-left">
     <div class="row"></div>
     <div class="col-md-8"></div>
      <h3>Images from amazing cities.</h3>
-     <div class="col-md-4">
-       <button class="bu">Click</button>
-     </div>
+     
     <div id="demo" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -179,16 +177,13 @@
 
       </div>
     </div>
-    </section>
-    <section class="lin">
-    <div class="row">
-      <div class= "col-md-4">
-     <button type="button" class="btn btn-primary">Click Me</button>
-
-        <p>This is a paragraph about links. </p>
-       
-      </div>
-    </div>
+   </section>
+    <section class="lin" id="section-right">
+   
+     <button type="button" id="tog" >Toggle between hiding and showing the paragraphs.</button>
+     <p>This is a paragraph about links. </p>
+    <p>This is another.</p>
+     
   </section>
  <footer>
     <section class="footer">
@@ -202,7 +197,7 @@
 
     </section>
   </footer>
-  <script>
+   <script>
     var map;
 
     function initMap() {
