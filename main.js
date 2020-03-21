@@ -71,6 +71,7 @@
           zoomControl: false,
           streetViewControl: false
         });
+      }
          infoWindow = new google.maps.InfoWindow({
           content: document.getElementById('info-content')
         });
@@ -274,4 +275,4 @@
    
    
 
-  
+      
