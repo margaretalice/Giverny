@@ -15,8 +15,7 @@
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <script>
     (function() {
-      emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
-
+     global emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
       emailjs.send('gmail', 'Berthe', ({ name: "Margaret", notes: "The information that I want is" }));
     })();
   </script>
@@ -25,7 +24,7 @@
 
 <body>
   <header>
-    <section class="section" id="intro">
+    <section class ="section" id="intro">
       <div class="row">
         <a class="col-md-4 logo" href="index.html"></a>
         <div class="col-md-8">
@@ -72,14 +71,16 @@
           <option value="uk">United Kingdom</option>
         </select>
       </div>
+      <div>
       <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
      
-  <select id="types" onchange="search();">
+   <select id="types" onchange="search();">
      <option value="lodging">Hotel</option>
       <option value="cafes" selected="selected">Cafes</option>
       <option value = "tourist_attraction">Tourist Attraction</option>
       <option value ="museums">Museums</option>
-    </select> in:
+    </select> 
+    </div>
     
     <div>
        <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="reset()"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
@@ -180,14 +181,14 @@
    </section>
     <section class="lin" id="section-right">
    
-     <button type="button" id="tog" >Toggle between hiding and showing the paragraphs.</button>
+     <button type="button" id="tog">Click here for more.</button>
      <p>This is a paragraph about links. </p>
     <p>This is another.</p>
      
   </section>
  <footer>
     <section class="footer">
-      <h4>For further information please see our social media accounts</h4>
+      <h4>For further information, please see our social media accounts.</h4>
       <div class="icon-row">
 
         <a href="https://m.facebook.com" target="_blank"><i class="fa fa-facebook "></i></a>
