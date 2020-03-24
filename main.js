@@ -71,7 +71,7 @@
      zoomControl: false,
      streetViewControl: false
    });
- }
+ 
  infoWindow = new google.maps.InfoWindow({
    content: document.getElementById('info-content')
  });
@@ -92,6 +92,7 @@
  // Add a DOM event listener to react when the user selects a country.
  document.getElementById('country').addEventListener(
    'change', setAutocompleteCountry);
+ }
 
 
  // When the user selects a city, get the place details for the city and
