@@ -1,10 +1,9 @@
 $(document).ready(function(){
+    $("button").click(function(){
+        $("p").slideToggle();
+    });
     
-})
+    });
+    
 
-$("#fo").click(function(){
-    $("P").hide(1000);
-});
-$("#fo").click(function(){
-    $("p").show();
-})
+
