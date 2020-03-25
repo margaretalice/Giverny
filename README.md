@@ -15,10 +15,19 @@ To use the map zoom feature, use the controls in the bottom right-hand corner of
 <h3>To find the results of the user's selection</h3>
 When a country, city, and option is selected, e.g. hotels, the autocomplete search will drop down markers on he map to show the location of the various hotels in that city. Each marker has an alphabetical letter to identify it in the  results table below. Double clicking on the marker on the map will give a dropdown listing the name, address, telephone number, and rating of the hotel. The same is true if art galleries, museums,cafes , or tourist attractions are choosen by the user. The name, address. telephone and rating of a hotel can also be displayed by clik=cking on an the alphabetical marker in the table of results and wiill appear over the marker on the map.
 <h2>Features</h2>
-<li>There is autocomplete in the searchbar allowing the user to begin typing and a list of cities in the selected country will appear. Usually, as soon as one letter is typed, the autoselect will appear as a dropdown.</li>
+<li>There is autocomplete in the searchbar allowing the user to begin typing and a list of cities in the selected country will appear. Usually, as soon as one letter is typed
+ the autoselect will appear as a dropdown.</li>
 <li>A category dropdown option allows the user to select and click on an option to search for from hotels, cafes, museums, art galleries, and tourist attractions.</li>
-<li>By clicking on one of the markers, an information window appears showing the name, address, teleohone, and rating of the establishment</li> 
-
+<li>By clicking on one of the markers, an information window appears showing the name, address, teleohone, and rating of the establishment</li>
+<li>When clicking on the marker in the results table, the same information window appears on the map besides the selected marker.</li>
+<h2>Technologies used</h2>
+<li> HTML</li>
+<li> css for styling in my style,css file.</li>
+<li> Bootstrap4 was used for the navigation and button classes e,g, the reset button, and the slideToggle button.</li>
+<li>Font-awesome was used for styling the social media icons</li>
+<li>Google fonts was used, and 'cookie' was chosen to give an artistic feel to match the project on art history based holidays. Similarly, the colour scheme, predominantly blue, pink and mauve was taken from the Berthe Morisot paintings used as backgrounds.<li>
+<li>Javascript was used to make the website interactive, and to code the map and the autocomplete map search features and markers.</li>
+<li>Google maps API, and Google maps Autocomplete Hotel Search documentation was used to allow the user to search for a country, city, and option.https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch?hl=. This was added to withtypes: [type.options[type.selectedIndex].value] to allow the user to select other options.<li>
 
 
 
