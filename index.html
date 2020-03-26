@@ -1,248 +1,309 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script>
-    (function() {
-     global emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
-      emailjs.send('gmail', 'Berthe', ({ name: "Margaret", notes: "The information that I want is" }));
-    })();
-  </script>
-  <title>Fine Art Holidays in France.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script>
+        (function() {
+
+            global emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
+
+            emailjs.send('gmail', 'Berthe', ({ name: "Margaret", notes: "The information that I want is" }));
+
+        })();
+    </script>
+
+    <title>Fine Art Holidays in France.</title>
+
 </head>
 
 <body>
-  <header>
-   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-expand-md bg-light navbar-blue">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Berthe Morisot Holidays</a>
+    <header>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
+        <body data-spy="scroll" data-target=".navbar" data-offset="50">
+            <nav class="navbar navbar-expand-md bg-light navbar-blue">
+                <a class="navbar-brand" href="#">Berthe Morisot Holidays</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+
   </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Map</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li> 
-       <li class="nav-item">
-        <a class="nav-link" href="#">Find out more</a>
-      </li> 
-    </ul>
-  </div> 
-</nav>
-<div id="About Us"></div>
-<div id="Map"></div>
-<div id="Contact Us"></div>
-<div id ="Find out more"></div>
+                    <ul class="navbar-nav mr-auto">
 
-    <section class ="section" id="intro">
-      <div class="row">
-        <a class="col-md-4 logo" href="index.html"></a>
-        <div class="col-md-8">
-          <div class="row bg-color-company-name-description">
-            <div class="col heading">
-              <h1 class="company-name">Berthe Morisot Art Tour Holidays.</h1>
-              <h2 class="description"> Specialist in Fine Art Educational Holidays.</h2>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+
+                        <li class="nav-item mr-2"><a class="nav-link" href="#about">About Us</a></li>
+
+                        <li class="nav-item mr-2"><a class="nav-link" href="#events">Map</a></li>
+
+                        <li class="nav-item mr-2"><a class="nav-link" href="#contactus">Contact Us</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="#events">Find out more</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <section class="section" id="intro">
+                <div class="row">
+                    <a class="col-md-4 logo" href="index.html"></a>
+                    <div class="col-md-8">
+                        <div class="row bg-color-company-name-description">
+                            <div class="col heading">
+                                <h1 class="company-name">Berthe Morisot Art Tour Holidays.</h1>
+                                <h2 class="description"> Specialist in Fine Art Educational Holidays.</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </header>
+
+    <section class="container-fluid jumbotron" id="monet">
+        <div class="bg-color-regions section-column"></div>
+        <div class="row">
+            <div class="col-md-12" id="arts">
+                <p class="des">We offer arts and culture tours to the world's most fascinating destinations led by experts in their fields to bring colour and life to your visit. Fascinating itineraries and private views, not usually available to the public, are carefully
+                    selected. All you have to do is choose where you want to go. Will it be Pompeii and Herculaneum, the Persian palaces and gardens of Iran, the mosaics of Ravenna, St Petersburg, or, perhaps, the Golden Road to Samarkand? </p>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-  </header>
-  <section class="container-fluid jumbotron" id="monet">
-    <div class="bg-color-regions section-column"></div>
-    <div class="row">
-      <div class="col-md-12"  id="arts">
-        <p class="des">We offer arts and culture tours to the world's most fascinating destinations led by experts in their fields to bring colour and life to your visit. Fascinating itineraries and private views, not usually available to the public, are carefully selected.
-          All you have to do is choose where you want to go. Will it be Pompeii and Herculaneum, the Persian palaces and gardens of Iran, the mosaics of Ravenna, St Petersburg, or, perhaps, the Golden Road to Samarkand? </p>
-      </div>
-    </div>
     </section>
 
-  <section id="find">
-    <h2 class="pos">Use the map to discover a world of possibilities.</h2>
-   <div id="locationField">
-        <input id="autocomplete" placeholder="Enter a city" type="text" />
-      </div>
-      <div id="controls">
-        <select id="country">
-          <option value="all">All</option>
+    <section id="find">
+        <h2 class="pos">Use the map to discover a world of possibilities.</h2>
+        <div id="locationField">
+            <input id="autocomplete" placeholder="Enter a city" type="text" />
+        </div>
+        <div id="controls">
+            <select id="country">
+                 <option value="all">All</option>
+
           <option value="au">Australia</option>
+
           <option value="br">Brazil</option>
+
           <option value="ca">Canada</option>
+
           <option value="fr">France</option>
+
           <option value="de">Germany</option>
+
           <option value="mx">Mexico</option>
+
           <option value="nz">New Zealand</option>
+
           <option value="it">Italy</option>
+
           <option value="za">South Africa</option>
+
           <option value="es">Spain</option>
+
           <option value="pt">Portugal</option>
+
           <option value="us" selected>U.S.A.</option>
+
           <option value="uk">United Kingdom</option>
+
         </select>
-      </div>
-      <div>
-      <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
-     
-   <select id="types" onchange="search();">
+
+        </div>
+
+        <div>
+
+            <p class="lead" id="looking-for"><small>What are you looking for?</small></p>
+
+
+
+            <select id="types" onchange="search();">
+
      <option value="lodging">Hotel</option>
+
       <option value="cafes" selected="selected">Cafes</option>
+
       <option value = "tourist_attraction">Tourist Attraction</option>
+
      <option value ="museums">Museums</option>
+
      <option vaue="art_galleries">Art Galleries</option>
-    </select> 
-    </div>
-    
-    <div>
-       <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="clearMarkers(); clearResults();"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
-</div>
-   <div id="map"></div>
-    <div id="listing">
-      <table id="resultsTable">
-        <tbody id="results"></tbody>
-      </table>
-    </div>
-    <div style="display: none">
-      <div id="info-content">
-        <table>
-          <tr id="iw-url-row" class="iw_table_row">
-            <td id="iw-icon" class="iw_table_icon"></td>
-            <td id="iw-url"></td>
-          </tr>
-          <tr id="iw-address-row" class="iw_table_row">
-            <td class="iw_attribute_name">Address:</td>
-            <td id="iw-address"></td>
-          </tr>
-          <tr id="iw-phone-row" class="iw_table_row">
-            <td class="iw_attribute_name">Telephone:</td>
-            <td id="iw-phone"></td>
-          </tr>
-          <tr id="iw-rating-row" class="iw_table_row">
-            <td class="iw_attribute_name">Rating:</td>
-            <td id="iw-rating"></td>
-          </tr>
-          <tr id="iw-website-row" class="iw_table_row">
-            <td class="iw_attribute_name">Website:</td>
-            <td id="iw-website"></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </section>
-  <section class="contact">
-    <div class="row">
-      <div class="offset-3 col-md-6 jumbotron" id="jum">
-        <h1 class="us">Please contact us for further information.</h1>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1" id="em">Please enter your email address, and we will contact you.</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
 
-  <!--Carousel from Bootstrap4 from W3schools tutorial-->
-  <section class="slide" id="section-left">
-    <div class="row"></div>
-    <div class="col-md-8"></div>
-     <h3>Images from amazing cities.</h3>
-     
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    </select>
 
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-      </ul>
-
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/images/arles.jpg" alt="Arles">
         </div>
-        <div class="carousel-item">
-          <img src="assets/images/cathedral.jpg" alt="Cathedral">
+
+
+
+        <div>
+
+            <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="clearMarkers(); clearResults();"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
+
         </div>
-        <div class="carousel-item">
-          <img src="assets/images/louvre.png" alt="Louvre">
+
+        <div id="map"></div>
+
+        <div id="listing">
+
+            <table id="resultsTable">
+
+                <tbody id="results"></tbody>
+
+            </table>
+
         </div>
-        <div class="carousel-item">
-          <img src="assets/images/rouen.jpg" alt="Rouen">
+
+        <div style="display: none">
+
+            <div id="info-content">
+
+                <table>
+
+                    <tr id="iw-url-row" class="iw_table_row">
+
+                        <td id="iw-icon" class="iw_table_icon"></td>
+
+                        <td id="iw-url"></td>
+
+                    </tr>
+
+                    <tr id="iw-address-row" class="iw_table_row">
+
+                        <td class="iw_attribute_name">Address:</td>
+
+                        <td id="iw-address"></td>
+
+                    </tr>
+
+                    <tr id="iw-phone-row" class="iw_table_row">
+
+                        <td class="iw_attribute_name">Telephone:</td>
+
+                        <td id="iw-phone"></td>
+
+                    </tr>
+
+                    <tr id="iw-rating-row" class="iw_table_row">
+
+                        <td class="iw_attribute_name">Rating:</td>
+
+                        <td id="iw-rating"></td>
+
+                    </tr>
+
+                    <tr id="iw-website-row" class="iw_table_row">
+
+                        <td class="iw_attribute_name">Website:</td>
+
+                        <td id="iw-website"></td>
+
+                    </tr>
+                </table>
+            </div>
         </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-      <div>
-        <h2 class="rich">Enjoy a rich cultural experience</h2>
-
-      </div>
-    </div>
-   </section>
-    <section class="lin" id="section-right">
-   
- <button type="button" id="tog">Click here for more.</button>
-     <p class="dropdown">This is a paragraph about links.</p>
-    <p class="dropdown">Berthe Marie Morisot was a painter and a member of the circle of painters in Paris who became known as The Impressionists.In 1864, Morisot exhibited for the first time in the highly esteemed Salon de Paris</p><a href="https://www.theartstory.org">Read more about her life</a>
-     
-  </section>
- <footer>
-    <section class="footer">
-      <h4>For further information, please see our social media accounts.</h4>
-      <div class="icon-row">
-
-        <a href="https://m.facebook.com" target="_blank"><i class="fa fa-facebook "></i></a>
-        <a href="https://www.instagram.com@rouentourisme" target="_blank"><i class="fa fa-instagram"></i></a>
-        <i class="fa fa-copyright"> M Woods Designs</i>
-      </div>
-
     </section>
-  </footer>
-  <script>
-    var map;
 
+    <section class="contact">
+        <div class="row">
+            <div class="offset-3 col-md-6 jumbotron" id="jum">
+                <h1 class="us">Please contact us for further information.</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" id="em">Please enter your email address, and we will contact you.</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <button type="submit" id="em" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Carousel from Bootstrap4 from W3schools tutorial-->
+    <section class="slide" id="section-left">
+        <div class="row"></div>
+        <div class="col-md-8"></div>
+        <h3>Images from amazing cities.</h3>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/arles.jpg" alt="Arles">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/cathedral.jpg" alt="Cathedral">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/louvre.png" alt="Louvre">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/rouen.jpg" alt="Rouen">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+    </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+    </a>
+            <div>
+                <h2 class="rich">Enjoy a rich cultural experience</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="lin" id="section-right">
+        <button type="button" id="tog">Read more.</button>
+        <p class="dropdown">Berthe Marie Morisot was a painter and a member of the circle of painters in Paris who became known as The Impressionists.In 1864, Morisot exhibited for the first time in the highly esteemed Salon de Paris.</p>
+    </section>
+
+    <footer>
+        <section class="footer">
+            <h4>For further information, please see our social media accounts.</h4>
+            <div class="icon-row">
+                <a href="https://m.facebook.com" target="_blank"><i class="fa fa-facebook "></i></a>
+                <a href="https://www.instagram.com@rouentourisme" target="_blank"><i class="fa fa-instagram"></i></a>
+                <i class="fa fa-copyright"> M Woods Designs</i>
+            </div>
+        </section>
+    </footer>
+
+
+    <script>
+        var map;
     </script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMystzeXJL-cTJlJH8p-BsYPbL413d9yg&libraries=places&callback=initMap" async defer></script>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
-  </script>
-   <script src="main.js"></script>
-   <script src="assets/my_jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</body>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMystzeXJL-cTJlJH8p-BsYPbL413d9yg&libraries=places&callback=initMap" async defer></script>
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+
+    <script src="main.js"></script>
+
+    <script src="assets/my_jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+    </body>
+
+
 
 </html>
