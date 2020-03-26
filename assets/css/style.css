@@ -3,6 +3,9 @@
     background-color: #AFEEEE;
     margin-left: 0;
 }
+body{
+    position: relative;
+}
 
 .section {
     background-color: #AFEEEE;
@@ -90,7 +93,7 @@
     color: #000080;
 }
 #controls{
-    margin-left: 50%;
+    margin-left: 0;
 }
 
 #country{
@@ -100,7 +103,6 @@
     font-family:Martel;
     font-weight:bold;
     background-color: #f6f6f6;
-  
     box-shadow: 0,0,10px,10px;
 }
 input[type=text] {
@@ -167,14 +169,21 @@ input[type=text]:focus {
     }
 
 #looking-for {
-    color: #ffffff;
+    color: #000080;
     font-size:3.5em;
     font-family: Cookie;
     margin-left:50%;
     font-weight: bold;
     margin-top: -145px;
+    text-decoration: underline;
 }
-
+#types{
+    margin-left: 50%;
+}
+#reset-button {
+    margin-left: 40%;
+    width: 100px;
+   }
 .main {
     color: #ffffff;
     margin-top: 35px;
@@ -192,7 +201,22 @@ h2 {
     margin-left: 10px;
     color:#ffffff;
 }
-
+.dropdown{
+    position:absolute;
+    background-color: #f6f6f6;
+    color:D3D3D3;
+    cursor:pointer;
+  border-color:1px #000080;
+  width:300px;
+    }
+.dropdown a{
+    color: #000000;
+    padding:12px 16px;
+}
+.dropdown a:hover {
+    color:#000080;
+}
+    
 .us{
     font-family: Cookie;
     font-size: 3.5em;
@@ -252,12 +276,12 @@ h2 {
     font-size: 1.5em;
     margin-top: 10px;
     margin-left: 270px;
-    color: #ffffff;
+    color: #000000;
 }
 #exampleInputEmail1 {
     width:360px;
     font-family: Martel;
-    color: #ffffff;
+    color: #000000;
     margin-left: 200px;
 }
 .btn btn-primary {
@@ -265,6 +289,7 @@ h2 {
 }
 #find{
     margin-top: 0px;
+    background-color: pink; 
 }
 
 h3{
