@@ -8,11 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
- <link rel="stylesheet" href="assets/my_jquery.js" type="text/javascript" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <link rel="stylesheet" href="main.js"  type="text/javascript" />
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <script>
     (function() {
      global emailjs.init("user_mFx8XeM97hghXhWuUQqkC");
@@ -24,6 +22,39 @@
 
 <body>
   <header>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-md bg-light navbar-blue">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Berthe Morisot Holidays</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Map</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+       <li class="nav-item">
+        <a class="nav-link" href="#">Find out more</a>
+      </li> 
+    </ul>
+  </div> 
+</nav>
+<div id="About Us"></div>
+<div id="Map"></div>
+<div id="Contact Us"></div>
+<div id ="Find out more"></div>
+
     <section class ="section" id="intro">
       <div class="row">
         <a class="col-md-4 logo" href="index.html"></a>
@@ -78,12 +109,13 @@
      <option value="lodging">Hotel</option>
       <option value="cafes" selected="selected">Cafes</option>
       <option value = "tourist_attraction">Tourist Attraction</option>
-      <option value ="museums">Museums</option>
+     <option value ="museums">Museums</option>
+     <option vaue="art_galleries">Art Galleries</option>
     </select> 
     </div>
     
     <div>
-       <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="reset()"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
+       <h6><button id="reset-button" type="button" class="btn btn-primary" onclick="clearMarkers(); clearResults();"><strong>Reset</strong>   <i class="fas fa-redo-alt"></i></button></h6>
 </div>
    <div id="map"></div>
     <div id="listing">
@@ -124,7 +156,7 @@
         <h1 class="us">Please contact us for further information.</h1>
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1" id="em">Email address</label>
+            <label for="exampleInputEmail1" id="em">Please enter your email address, and we will contact you.</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             <button type="submit" class="btn btn-primary">Submit</button>
@@ -181,9 +213,9 @@
    </section>
     <section class="lin" id="section-right">
    
-     <button type="button" id="tog">Click here for more.</button>
-     <p>This is a paragraph about links. </p>
-    <p>This is another.</p>
+ <button type="button" id="tog">Click here for more.</button>
+     <p class="dropdown">This is a paragraph about links.</p>
+    <p class="dropdown">Berthe Marie Morisot was a painter and a member of the circle of painters in Paris who became known as The Impressionists.In 1864, Morisot exhibited for the first time in the highly esteemed Salon de Paris</p><a href="https://www.theartstory.org">Read more about her life</a>
      
   </section>
  <footer>
@@ -201,13 +233,13 @@
   <script>
     var map;
 
-    
-  </script>
+    </script>
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMystzeXJL-cTJlJH8p-BsYPbL413d9yg&libraries=places&callback=initMap" async defer></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
   </script>
    <script src="main.js"></script>
+   <script src="assets/my_jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
