@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("button").onclick(function(){
+    $("#tog").click(function(){
         $("p").slideToggle(1000);
     });
     
