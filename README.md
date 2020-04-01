@@ -20,12 +20,15 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 <li>A category dropdown option allows the user to select and click on an option to search for from hotels, cafes, museums, art galleries, and tourist attractions.</li>
 <li>By clicking on one of the markers, an information window appears showing the name, address, teleohone, and rating of the establishment</li>
 <li>When clicking on the marker in the results table, the same information window appears on the map besides the selected marker.</li>
+<li> A slideToggle feature when clicked on gives additional infomation about Berthe Morisot.</li>
+<li>An email account was created and linked to my gmail account as 'Berthe Morisot' is a fictious company. Similarly, all social media sites were posted to apppropriate links as Berthe Morisot being a ficticious company did not have real ones.</li>
 <h2>Technologies used</h2>
 <li> HTML</li>
 <li> css for styling in my style,css file.</li>
 <li> Jquery was used to give the toggle button with additional information more dynamism.A speed for the slide of 1000 milliseconds was used.</li>
 <li> Bootstrap4 was used for the navigation and button classes e,g, the reset button, and the slideToggle button.</li>
 <li>Font-awesome was used for styling the social media icons</li>
+<li> The Reset button was manually cheked multiole times to make sure all the markers from a previous search were removed. Clear results() function was also added to the reset buton so that the results table would clear also.</li> 
 <li>Google fonts was used, and 'cookie' was chosen to give an artistic feel to match the project on art history based holidays. Similarly, the colour scheme, predominantly blue, pink and mauve was taken from the Berthe Morisot paintings used as backgrounds.<li>
 <li>Javascript was used to make the website interactive, and to code the map and the autocomplete map search features and markers.</li>
 <li>Google maps API, and Google maps Autocomplete Hotel Search documentation was used to allow the user to search for a country, city, and option.https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch?hl=. This was added to withtypes: [type.options[type.selectedIndex].value] to allow the user to select other options.<li>
