@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Martel|Cookie');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Martel|Cookie|Times New Roman');
+
 .row bg-color-company-name-description {
     background-color: #AFEEEE;
     margin-left: 0;
@@ -48,10 +49,9 @@ body{
     background-color: #AFEEEE;
 }
 #find {
-    background-color: pink;
+   color:green;
     margin-top: 0px;
 }
-
 .logo {
     background: url("../images/Berthe.jpg");
     background-position: center;
@@ -64,8 +64,8 @@ body{
 }
 .des{
     text-align :center;
-    font-family:Cookie;
-    font-size:2.5em;
+    font-family:Times New Roman;
+    font-size:2em;
     padding-top:15px;
     color:#ffffff;
     font-weight: bold;
@@ -73,24 +73,24 @@ body{
 
 #map {
     min-height: 360px;
-    margin-top: 30px;
+    margin-top:-460px;
     border-width: 8px;
     border-color: #d3d3d3;
     border-style: ridge;
     height: 500px;
-}
+  }
 
 .location-field{
-    background-color:pink;
+    background-color:fffdd0;
     margin-top: 0px;
 }
 .pos {
     text-align: center;
     text-decoration: underline;
-    font-variant: Martel;
+    font-variant: Times New Roman;
     font-size: 3em;
     padding-top: 30px;
-    color: #000080;
+    color: #000000;
 }
 #controls{
     margin-left: 0;
@@ -162,30 +162,30 @@ input[type=text]:focus {
     margin-top: 0px;
 }
 #autocomplete{
-    margin-left: 20%;
+    margin-left:15%;
     height: 40px;
     margin-top: 60px;
 }
 #country{
     margin-top: 30px;
-    margin-left: 20%
+    margin-left: 12%
     }
 
 #looking-for {
-    color: #000080;
-    font-size:3.5em;
-    font-family: Cookie;
-    margin-left:50%;
+    color: #000000;
+    font-size:2.5em;
+    font-family: Times New Roman;
+    margin-left:15%;
     font-weight: bold;
-    margin-top: -145px;
-    text-decoration: underline;
-}
+    margin-top: 30px;
+ }
 #types{
-    margin-left: 50%;
+    margin-left: 15%;
 }
 #reset-button {
-    margin-left: 40%;
+    margin-left: 35%;
     width: 100px;
+    margin-top: 30%;
    }
 .main {
     color: #ffffff;
