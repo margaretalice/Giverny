@@ -45,6 +45,7 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 Windows10:Google Chrome, Microsoft Edge, Firefox.</li>
 <h2>Deployment</h2>
 My site is deployed at <a href="https://margaretalice.github.io/Giverny/">click here to view</a>
+<h2>Mockups</h2>
 To view the mockup for this site, please go to <a href="https://github.com/margaretalice/Giverny/blob/master/assets/mockups/Violette.png">View here</a>
 <h2>Credits</h2>
 Ben Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to wonderful mentor , Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
