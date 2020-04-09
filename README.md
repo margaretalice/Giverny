@@ -1,7 +1,7 @@
 <h1>Berthe Morisot Art Tour Holidays</h1>
-My project is the website for a fictious holiday company called Berthe Morisot Art Tour Holidays(the name chosen for no other reason than Berthe Morisot is one of my favourite female artists). The website contains information on the hotels, tourist attractions, museums, and cafes in any city that a user clicks on from a list of countries.
+My project is the website for a fictious holiday company called Berthe Morisot Art Tour Holidays(the name chosen for no other reason than Berthe Morisot is one of my favourite female artists). The website contains information on the hotels, tourist attractions, museums, and cafes in any city that a user clicks on from a list of countries. The purpose of this website was to imagine that the company felt that their existing website was bland and unexciting, and did not stand out from the opposition. They wanted a website that would immediately convey to the viewer that they were specialists in their field, and with a layout and images to attract the artistically inclined tourist. It was also designed as my second milestone project to show the new skills learnt during the Javascript module, and interactive frontend modules.
 <h2>UX</h2>
-This website is for someone looking to plan different aspects of their holiday in their chosen city , with particular reference to hotels, museums, tourist attractions, art galleries .and cafes.
+This website is for someone looking to plan different aspects of their holiday in their chosen city , with particular reference to hotels, museums, tourist attractions, art galleries .and cafes. The website is one page, broken up into sections. This was done purposely for it to be easier and quicker to navigate without the user having to wait for another page to load. It was designed to be well laid out and easy to read. <ul> <li> The Home page introduces the company, and sets the artistic tone of the company.</li> <li>The about page explains the variety and exclusivity of the holidays that Berthe Morisot holidays can offer, and gives a tempting list of destinations.</li> <li>The map page is designed to allow the user to select a country and city within that country of their choice from a list of options that the company operates in, and to make a judgement themselves as to where they want to spend their holiday by comparing options available in different destinations(options are hotels, cafes, museums, art galleries, and tourist attractions.) They can then make an informed decision as to which country and city is best for them. When they click on the markers that drop down, they are giving the ratings and website of the instituion, and all options are listed in a striped table, for ease  of reading. </li> <li>A contact form is designed to tempt the user to give their email address, and to begin a dialogue with the company with the business purpose of increasing sales of holidays, once the client has given their email address and signalled their interest. </li> <li>A fourth section shows a gallery of photos, again with the view of enticing the user with the prospect of holiday in one of these destinations A 'read more' button is used to explain the inspiration behind the company's name, and to create the sence that the clint will get a totally immersive and scholarly holiday given by exerts in the field from a company that are dedicated specialists in their line, of business.</li> <li>Afooter section contains social media sites for the user to learn and engage with company.</li></ul> 
 <h3> To select a country.</h3>
 The user clicks on the country autocomplete search bar, and clicks on an option from the dropdown list of countries.
 <h3> To select a city</h3>
@@ -43,26 +43,11 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 <li>i phone x:tested using the inspect features on Chrome Developer tools</li>
 <li>Browsers included:
 Windows10:Google Chrome, Microsoft Edge, Firefox.</li>
-<h3>Deployment</h3>
-My site is deployed at https://margaretalice.github.io/Giverny/
-<h3>Credits</h3>
+<h2>Deployment</h2>
+My site is deployed at <a href="https://margaretalice.github.io/Giverny/">click here to view</a>
+
+<h2>Credits</h2>
+en Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to wonderful mentor , Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
 
 
-
-
-
-
-_        ______     ____ _                 _  ___  
- / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+   
