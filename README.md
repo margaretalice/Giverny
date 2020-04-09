@@ -33,7 +33,7 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 <li>Javascript was used to make the website interactive, and to code the map and the autocomplete map search features and markers.</li>
 <li>Google maps API, and Google maps Autocomplete Hotel Search documentation was used to allow the user to search for a country, city, and option.https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch?hl=. This was added to withtypes: [type.options[type.selectedIndex].value] to allow the user to select other options.<li>
 <h2> Testing</h2>
-<li>I manually tested the autocomplete in the search bar for 'Enter a city' by typing in many cities in a selected country, and each time the dropdown with the list of cities beginning with the letters typed appeared for each country tested. All countries on the select one option were tested.,/li.
+<li>I manually tested the autocomplete in the search bar for 'Enter a city' by typing in many cities in a selected country, and each time the dropdown with the list of cities beginning with the letters typed appeared for each country tested. All countries on the select one option were tested.</li.
 <li>The options, hotels, cafes, museums, art galleries, and tourist attractions were tested for many cities in mant countries, and each time the map reset with different markers.</li>
 <li> The markers were clicked on for enumerable choices to make sure that the relevant information window appeared with the name. address, telephone, and rating. Also, the markers in the result table were clicked on many times to make sure tha the information window appeared on the map by the same alphabetical marker. Clicking on the x was done to make sure that the marker disappeared.</li>
 <li>The map features including the full screen choice(click on the dotted square border in the top right-hand corner.) To escape the full screen view, click on the icon in the top right-hand corner, the toggle between button, or press the escape key</li>
@@ -45,9 +45,9 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 Windows10:Google Chrome, Microsoft Edge, Firefox.</li>
 <h2>Deployment</h2>
 My site is deployed at <a href="https://margaretalice.github.io/Giverny/">click here to view</a>
-
+To view the mockup for this site, please go to <a href="https://github.com/margaretalice/Giverny/blob/master/assets/mockups/Violette.png">View here</a>
 <h2>Credits</h2>
-en Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to wonderful mentor , Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
+Ben Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to wonderful mentor , Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
 
 
    
