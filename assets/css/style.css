@@ -97,11 +97,12 @@ body{
     border-style: ridge;
     height: 500px;
   }
-  @media screen and (max-width:375px){
-      #map{
-          
-      }
-  }
+@media screen and (max-width:375px) {
+    #map{
+        margin-top: 0px;
+        width:100%;
+    }
+}
 
 #locationField{
      background-color:#fffddO;
@@ -131,7 +132,7 @@ body{
     margin-left: 500px;
     height: 40px;
     width:200px;
-    font-family:Martel;
+    font-family:Times New Roman;
     font-weight:bold;
     background-color: #000000;
     box-shadow: 0,0,10px,10px;
@@ -140,6 +141,7 @@ body{
     border-radius:4px;
     
 }
+
 
 input[type=text] {
     width:200px;
@@ -195,6 +197,11 @@ input[type=text]:focus {
   #jum {
       margin-top: 10px;
   }
+  @media screen and (max-width:375px){
+      #jum{
+          width:100%;
+      }
+  }
 
 .h1 {
     color: #ffffff;
@@ -210,6 +217,11 @@ input[type=text]:focus {
     color:#000000;
     border-radius:4px;
     
+}
+@media screen and (max-width:375px){
+    #autocomplete{
+        margin-top: 30px;
+    }
 }
 #country{
     margin-top: 30px;
@@ -227,6 +239,11 @@ input[type=text]:focus {
     margin-left:15%;
     font-weight: bold;
     margin-top: 30px;
+ }
+ @media screen and (max-width:375px){
+     #looking-for{
+         font-size: 1.75em;
+     }
  }
 #types{
     margin-left: 15%;
@@ -283,6 +300,11 @@ h2 {
     text-align: center;
     text-decoration: underline;
     margin-top: 20px;
+    }
+    @media screen and (max-width:375px){
+        .us{
+            font-size: 2em;
+        }
     }
    
     .btn btn-primary {
@@ -350,6 +372,17 @@ h2 {
     color: #000000;
     margin-left: 200px;
 }
+@media screen and (max-width:375px) {
+    #exampleInputEmail1{
+        width: 150px;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:375px){
+    .form-group{
+        margin-left: 0px;
+    }
+}
 .btn btn-primary {
     width:360px;
     margin-left: 50%;
@@ -359,6 +392,11 @@ h2 {
     font-family: Times New Roman;
     font-size: 1.5em;
     color:#000000;
+  }
+  @media screen and (max-width:375px) {
+      #em{
+          font-size: 0.75em;
+      }
   }
 #find{
     margin-top: 0px;
