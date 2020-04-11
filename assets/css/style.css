@@ -28,6 +28,12 @@ body{
     text-decoration: underline;
     text-align: center;
 }
+@media screen and (max-width:375px) {
+    .company-name{
+        font-size:3em;
+    }
+}
+
 .main {
     margin-top: 0px;
 }
@@ -43,6 +49,12 @@ body{
     text-align: center;
     margin-top: 0px;
     margin-left: 0px;
+}
+@media screen and (max-width:375px){
+    .description{
+        font-size: 2em;
+       
+    }
 }
 
 .col-heading {
@@ -69,6 +81,13 @@ body{
     color:#ffffff;
     font-weight: bold;
 }
+@media screen and (max-width:375px) {
+    .des{
+        font-size: 1em;
+        text-align: justify;
+        
+    }
+}
 
 #map {
     min-height: 360px;
@@ -77,6 +96,11 @@ body{
     border-color: #d3d3d3;
     border-style: ridge;
     height: 500px;
+  }
+  @media screen and (max-width:375px){
+      #map{
+          
+      }
   }
 
 #locationField{
@@ -92,6 +116,11 @@ body{
     padding-top: 30px;
     color: #000000;
     background-color: #fffddO;
+}
+@media screen and (max-width:375px) {
+    .pos{
+        font-size:2em;
+    }
 }
 #controls{
     margin-left: 0;
@@ -150,6 +179,12 @@ input[type=text]:focus {
     z-index: 3;
    /* opacity: rgba(0, 0, 0, 0.5);*/
   
+   }
+ @media screen and (max-width:375px){
+      #monet{
+          background-image: url('../images/St-Petersburg.jpg') ;
+           
+       }
    }
    .bg-arts{
        	background: rgba( 0,0,0,0.4);
