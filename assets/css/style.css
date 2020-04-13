@@ -60,9 +60,7 @@ body{
 .col-heading {
     background-color: #AFEEEE;
 }
-#find {
- margin-top: 0px;
-}
+
 .logo {
     background: url("../images/Berthe.jpg");
     background-position: center;
@@ -101,7 +99,8 @@ body{
     #map{
         margin-top: 0px;
         width:100%;
-    }
+        margin-left: 0px;
+        }
 }
 
 #locationField{
@@ -400,7 +399,7 @@ h2 {
   }
 #find{
     margin-top: 0px;
-    background-color: pink; 
+    background-color:ivory; 
 }
 #emailHelp {
     margin-left: 150px;
@@ -416,6 +415,11 @@ h3{
    text-align:center;
    margin-left:300px;
 }
+@media screen and (max-width:375){
+    h3{
+       text-align: left;
+    }
+}
 .rich{
     font-size: 2.5em;
     font-family: Cookie;
@@ -425,8 +429,8 @@ h3{
    
    #demo{
        height:250px;
+      margin-left:35px;
        width:1200px;
-       margin-left:15px;
    }
    .ogg{
        margin-left: 75%;
