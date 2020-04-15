@@ -21,24 +21,24 @@ When a country, city, and option is selected, e.g. hotels, the autocomplete sear
 <li>By clicking on one of the markers, an information window appears showing the name, address, teleohone, and rating of the establishment</li>
 <li>When clicking on the marker in the results table, the same information window appears on the map besides the selected marker.</li>
 <li> A slideToggle feature when clicked on gives additional infomation about Berthe Morisot.</li>
-<li>An email account was created and linked to my gmail account as 'Berthe Morisot' is a fictious company. Similarly, all social media sites were posted to apppropriate links as Berthe Morisot being a ficticious company did not have real ones.</li>
+<li>An email account was created by going to EmailJS website and linking it  to my gmail account as 'Berthe Morisot' is a fictious company and therefore does not have it's own email address.I created a template from the templates section on EmailJS dashboard, and gave it the name 'Berthe'. I then clicked on their test email and the message was successfully sent to my gmail account. I designed the template to read 'Information request. Please send me more details of your holidays.' I tested that this message was received on my laptop, mobile and tablet multiple times to check that each time the message was sent. A copy of the email that I received can be viewed here <a href="https://github.com/margaretalice/Giverny/blob/master/emails/Information%20request.eml">Click here</a> Similarly, all social media sites were posted to apppropriate links, such as Facebook's home page, and also Twitter, Instagram, LinkedIn's home pages. as Berthe Morisot being a ficticious company did not have real ones.</li>
 <h2>Technologies used</h2>
 <li> HTML</li>
 <li> css for styling in my style,css file.</li>
-<li> Jquery was used to give the toggle button with additional information more dynamism.A speed for the slide of 1000 milliseconds was used.</li>
+<li> Jquery was used to give the toggle button with additional information more dynamism.A speed for the slide of 1000 milliseconds was used. When the user clicks on the 'Read me ' button a paragraph of information about the artist who was the inspiratio for the company's name appears, and a link to their Wikipaedia entry. When the user again clicks on the button, the paragraph slides back up, and is concealed.</li>
 <li> Bootstrap4 was used for the navigation and button classes e,g, the reset button, and the slideToggle button.</li>
 <li>Font-awesome was used for styling the social media icons</li>
-<li> The Reset button was manually cheked multiole times to make sure all the markers from a previous search were removed. Clear results() function was also added to the reset buton so that the results table would clear also.</li> 
-<li>Google fonts was used, and 'cookie' was chosen to give an artistic feel to match the project on art history based holidays. Similarly, the colour scheme, predominantly blue, pink and mauve was taken from the Berthe Morisot paintings used as backgrounds.<li>
+<li> The Reset button was manually cheked multiple times to make sure all the markers from a previous search were removed. Clear results() function was also added to the reset buton so that the results table would clear also.</li> 
+<li>Google fonts was used ad Times New Roman, and Martel were selected for their readability, and crisp professional appearance. Similarly, the colour scheme, predominantly blue,and mauve was taken from the Berthe Morisot paintings used as backgrounds.<li>
 <li>Javascript was used to make the website interactive, and to code the map and the autocomplete map search features and markers.</li>
 <li>Google maps API, and Google maps Autocomplete Hotel Search documentation was used to allow the user to search for a country, city, and option.https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch?hl=. This was added to withtypes: [type.options[type.selectedIndex].value] to allow the user to select other options.<li>
 <h2> Testing</h2>
 <li>I manually tested the autocomplete in the search bar for 'Enter a city' by typing in many cities in a selected country, and each time the dropdown with the list of cities beginning with the letters typed appeared for each country tested. All countries on the select one option were tested.</li.
-<li>The options, hotels, cafes, museums, art galleries, and tourist attractions were tested for many cities in mant countries, and each time the map reset with different markers.</li>
+<li>The options, hotels, cafes, museums, art galleries, and tourist attractions were tested for many cities in many countries, and each time the map reset with different markers.</li>
 <li> The markers were clicked on for enumerable choices to make sure that the relevant information window appeared with the name. address, telephone, and rating. Also, the markers in the result table were clicked on many times to make sure tha the information window appeared on the map by the same alphabetical marker. Clicking on the x was done to make sure that the marker disappeared.</li>
 <li>The map features including the full screen choice(click on the dotted square border in the top right-hand corner.) To escape the full screen view, click on the icon in the top right-hand corner, the toggle between button, or press the escape key</li>
 <li>The clicking of the zoom feature + or - was tested manually to ensure that the map zoomed in and out properly. </li>
-<li> w3schools HTML validator was used to check for errors in my code, as well as w3css validator to check my style.css code.</li>
+<li> w3schools HTML validator was used to check for errors in my code, as well as W3css validator to check my style.css code.</li>
 <li> I tested my project on several screen sizes, including<li>GalaxyS5</li><li>Google Chrome,</li><li> Microsoft Edge,</li><li> Firefox</li> 
 <li>i phone x:tested using the inspect features on Chrome Developer tools</li>
 <li>Browsers included:
@@ -48,7 +48,7 @@ My site is deployed at <a href="https://margaretalice.github.io/Giverny/">click 
 <h2>Mockups</h2>
 To view the mockup for this site, please go to <a href="https://github.com/margaretalice/Giverny/blob/master/assets/mockups/Violette.png">View here</a>
 <h2>Credits</h2>
-Ben Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to wonderful mentor , Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
+Ben Hasselgren's milestone 2 project was a source of inspiration, and invaluable guideline for what a project using Google places hotel search should look like. But my main thanks and gratitude goes to mentor, Maranatha Ilesanmi, who takes my efforts and helps me make somehing worthwhile out of them.
 
 
    
