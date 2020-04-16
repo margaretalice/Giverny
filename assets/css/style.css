@@ -339,6 +339,7 @@ h2 {
     @media screen and (max-width:375px){
         #section-right{
             margin-top: 0px;
+            width:100px;
         }
     }
     #tog{
@@ -352,6 +353,12 @@ h2 {
          border: 2px solid #000080;
          color:#000000;
          border-radius:4px;
+    }
+    @media screen and (max-width:375px){
+        #tog{
+            width:75%;
+            margin-left: 0px;
+        }
     }
    
      h3{
