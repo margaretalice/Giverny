@@ -476,6 +476,7 @@ h2 {
    }
    @media screen and (max:width375px){
        #demo{
+           overflow-y: scroll;
           
        }
    }
