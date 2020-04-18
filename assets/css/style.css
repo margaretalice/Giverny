@@ -43,7 +43,7 @@ body{
     padding-top: 5px;
     background-color: #AFEEEE;
     font-size: 3.75em;
-    font-family: Cookie;
+    font-family: Times New Roman;
     font-weight: bold;
     color: #000080;
     text-align: center;
@@ -71,6 +71,7 @@ body{
     border-color: #000080;
     border-style: inset;
 }
+
 .des{
     text-align :center;
     font-family:Times New Roman;
@@ -344,7 +345,7 @@ h2 {
     }
     #tog{
         margin-top: 100px;
-        margin-left: 120px;
+        margin-left: 375px;
         height:35px;
         width:300px;
         font-size: 20px;
@@ -357,8 +358,14 @@ h2 {
     @media screen and (max-width:375px){
         #tog{
             width:75%;
-            margin-left: 0px;
+            margin-top: 0px;
         }
+    }
+    #mar {
+        margin-left: 375px;
+    }
+    .Petra{
+        height: 500px;
     }
    
      h3{
@@ -446,26 +453,42 @@ h2 {
     }
 }
 
-h3{
+#label{
   margin-top: 10px;
-    font-size: 3em;
+    font-size: 3.5em;
    text-decoration:underline;
    font-family:Times New Roman;
    color: #000080;
-   margin-left: -200px;
+  text-align: center;
+ }
+ @media screen and (max-width:375px){
+     h3{
+         width:100px;
+     }
  }
 
 
  #demo{
        height:250px;
-      margin-left:35px;
-       width:1200px;
+      margin-left:20px;
+      margin-right: 20px;
+       width:100%;
+   }
+   @media screen and (max:width375px){
+       #demo{
+          
+       }
    }
  
    
-   .lin{
+   #lin{
        background-color:#ffffff;
    }
+@media screen and (max-width:375px){
+    #section-right{
+        margin-top: 0px;
+    }
+}
 .footer {
    background-color: #ccccff;
    height:150px;
@@ -504,3 +527,10 @@ h4{
     text-decoration: underline;
     padding-top: 30px;
 }
+
+
+
+
+
+
+
